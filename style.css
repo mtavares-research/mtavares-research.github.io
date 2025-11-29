@@ -1,0 +1,71 @@
+/* ===== GENERAL ===== */
+
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcfd; /* pink so pale it's basically white */
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+
+header {
+    text-align: center;
+    padding: 80px 20px 50px;
+    background: linear-gradient(to bottom, #fff5f8, #fdfcfd);
+}
+
+.title {
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: #555;
+    font-style: italic;
+}
+
+/* ===== SECTIONS ===== */
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    border-bottom: 1px solid #e6d8df;
+    padding-bottom: 4px;
+    margin-top: 40px;
+}
+
+p, li {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+/* ===== LINKS ===== */
+
+a {
+    color: #995f74;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
